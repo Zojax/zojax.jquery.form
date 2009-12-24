@@ -1,0 +1,13 @@
+<configure 
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <includeDependencies package="." />
+
+  <zojax:resourceinclude
+     name="jquery.form.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" compression="yes"
+     file="jquery.form.js" />
+
+</configure>
